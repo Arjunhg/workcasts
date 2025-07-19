@@ -142,44 +142,44 @@ export const hiringAgentTemplates = {
 }
 
 // Quick create functions for common roles
-export const createFrontendInterviewer = (name?: string, experience?: string) => 
+export const createFrontendInterviewer = (name?: string, experience?: 'junior' | 'mid' | 'senior') => 
   createHiringAgent({
     ...hiringAgentTemplates.frontendDeveloper,
     name: name || hiringAgentTemplates.frontendDeveloper.name,
-    experience: experience as any
+    experience: experience
   })
 
-export const createBackendInterviewer = (name?: string, experience?: string) => 
+export const createBackendInterviewer = (name?: string, experience?: 'junior' | 'mid' | 'senior') => 
   createHiringAgent({
     ...hiringAgentTemplates.backendDeveloper,
     name: name || hiringAgentTemplates.backendDeveloper.name,
-    experience: experience as any
+    experience: experience
   })
 
-export const createFullStackInterviewer = (name?: string, experience?: string) => 
+export const createFullStackInterviewer = (name?: string, experience?: 'junior' | 'mid' | 'senior') => 
   createHiringAgent({
     ...hiringAgentTemplates.fullStackDeveloper,
     name: name || hiringAgentTemplates.fullStackDeveloper.name,
-    experience: experience as any
+    experience: experience
   })
 
-export const createDataScienceInterviewer = (name?: string, experience?: string) => 
+export const createDataScienceInterviewer = (name?: string, experience?: 'junior' | 'mid' | 'senior') => 
   createHiringAgent({
     ...hiringAgentTemplates.dataScientist,
     name: name || hiringAgentTemplates.dataScientist.name,
-    experience: experience as any
+    experience: experience
   })
 
-export const createProductManagerInterviewer = (name?: string, experience?: string) => 
+export const createProductManagerInterviewer = (name?: string, experience?: 'junior' | 'mid' | 'senior') => 
   createHiringAgent({
     ...hiringAgentTemplates.productManager,
     name: name || hiringAgentTemplates.productManager.name,
-    experience: experience as any
+    experience: experience
   })
 
-export const createDevOpsInterviewer = (name?: string, experience?: string) => 
+export const createDevOpsInterviewer = (name?: string, experience?: 'junior' | 'mid' | 'senior') => 
   createHiringAgent({
     ...hiringAgentTemplates.devOpsEngineer,
     name: name || hiringAgentTemplates.devOpsEngineer.name,
-    experience: experience as any
+    experience: experience
   })
