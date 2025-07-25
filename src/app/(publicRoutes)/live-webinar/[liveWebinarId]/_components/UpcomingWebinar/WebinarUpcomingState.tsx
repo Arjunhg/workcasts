@@ -58,7 +58,7 @@ const WebinarUpcomingState = ({ webinar, currentUser }: Props) => {
       <div className="space-y-6 w-full h-full flex justify-center items-center flex-col">
         <div className="w-full max-w-md aspect-video relative rounded-2xl overflow-hidden mb-6 flex justify-center items-center">
           <Image
-            src={'/Salescast.png'}
+            src={'/LiveTalent.png'}
             alt={webinar.title}
             width={200}
             height={100}
