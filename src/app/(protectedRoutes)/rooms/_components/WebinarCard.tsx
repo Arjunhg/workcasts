@@ -15,7 +15,7 @@ const WebinarCard = ({ webinar }: Props) => {
       <Link href={`/live-webinar/${webinar?.id}`} className="w-full max-w-[400px] relative overflow-hidden rounded-3xl">
         <div className="relative">
           <Image
-            src="/Textcast.png"
+            src="/LiveTalent.png"
             alt="webinar"
             width={400}
             height={300}
